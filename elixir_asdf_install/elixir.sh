@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo apt -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop
 
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
