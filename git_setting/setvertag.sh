@@ -5,4 +5,4 @@ verlong="$ver.$vdate"
 verlonga="v.$verlong"
 echo $verlonga
 echo $verlong
-git tag -a $verlonga -m Version $verlong
+git tag -a $verlonga -m "Version $verlong"
