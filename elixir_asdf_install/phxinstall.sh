@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt update
-sudo apt install -y node.js npm inotify-tools
+sudo apt install -y nodejs npm inotify-tools
 npm install n -g
 n stable
 sudo apt purge -y nodejs npm
